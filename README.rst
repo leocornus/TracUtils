@@ -6,9 +6,9 @@ All kind of utilities for incorporating Trac_ into MediaWiki_.
 Features
 ========
 
-**Tag ticket**
+**ticket tag**
 
-We will introduce a new tag named '''ticket''' to 
+We will introduce a new tag named **ticket** to 
 provide a easy and flexible way to link a ticket number.
 For example, if you have the following wikitext 
 on a wiki page::
@@ -23,6 +23,30 @@ HTML::
 
 `MediaWiki Tag Extensions`_ page hase all we need to create a
 tag for MediaWiki_.
+
+**commit tag**
+
+Similar to the **ticket** tag, the **commit** tag will generate
+a hyperlink to a commit id.
+
+**milestone tag**
+
+The **milestone** tag will provide a overall summary for a 
+milestone planned in Trac_ project.
+
+Installation and Configuration
+==============================
+
+Install as a regular MediaWiki_ extension.
+
+Configuration options:
+
+- $tracTicketLinkPattern defines the hyperlink pattern for 
+  **ticket** tag. 
+  **TICKET_ID** will be replaced with the actural ticket id.
+- $tracCommitLinkPattern defines the hyperlink pattern for
+  **commit** tag. 
+  **COMMIT_ID** will be replaced with the actural commit id.
 
 License
 =======
