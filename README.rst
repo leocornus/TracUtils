@@ -6,7 +6,7 @@ All kind of utilities for incorporating Trac_ into MediaWiki_.
 Features
 ========
 
-'''Tag ticket'''
+**Tag ticket**
 
 We will introduce a new tag named '''ticket''' to 
 provide a easy and flexible way to link a ticket number.
@@ -31,4 +31,4 @@ GNU General Public License Version 2
 
 .. _Trac: http://trac.edgewall.org/
 .. _MediaWiki: http://www.mediawiki.org/
-.. _MediaWiki Tag Extansions: http://www.mediawiki.org/wiki/Manual:Tag_extensions
+.. _MediaWiki Tag Extensions: http://www.mediawiki.org/wiki/Manual:Tag_extensions
