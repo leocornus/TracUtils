@@ -37,7 +37,7 @@ milestone planned in Trac_ project.
 Installation and Configuration
 ==============================
 
-Install '''TracUtils''' as a regular MediaWiki_ extension::
+Install **TracUtils** as a regular MediaWiki_ extension::
 
   require_once("$IP/extensions/TracUtils/TracUtils.php");
 
