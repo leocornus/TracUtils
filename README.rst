@@ -56,7 +56,7 @@ The extension will offer the following configuration options:
 Here are some examples::
 
   $wgTracTicketLinkPattern = "http://url.to.trac/ticket?[TICKET_ID]"
-  $wgTracTicketLinkPattern = "http://url.to.trac/commit?[COMMIT_ID]"
+  $wgTracCommitLinkPattern = "http://url.to.trac/commit?[COMMIT_ID]"
 
 License
 =======
@@ -66,4 +66,4 @@ GNU General Public License Version 2
 .. _Trac: http://trac.edgewall.org/
 .. _MediaWiki: http://www.mediawiki.org/
 .. _MediaWiki Tag Extensions: http://www.mediawiki.org/wiki/Manual:Tag_extensions
-.. _MediaWiki Making your extension user configuable: http://www.mediawiki.org/wiki/Manual:Developing_extensions#Making_your_extension_user_configurable
+.. _MediaWiki Making your extension user configurable: http://www.mediawiki.org/wiki/Manual:Developing_extensions#Making_your_extension_user_configurable

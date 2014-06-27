@@ -19,9 +19,12 @@ class TicketTag {
      */
     public static function renderTicket($input, $args, $parser) {
 
-        $linkPattern = "http://trac.project.com/ticket?[TICKET_ID]";
+	global $wgTracTicketLinkPattern;
+
+        //$linkPattern = "http://trac.project.com/ticket?[TICKET_ID]";
         $id = htmlspecialchars($input);
-        $link = str_replace('[TICKET_ID]', $id, $linkPattern);
+        $link = str_replace('[TICKET_ID]', $id, 
+                            $wgTracTicketLinkPattern);
         $ret = <<<EOT
 <a href="{$link}">#{$id}</a>
 EOT;

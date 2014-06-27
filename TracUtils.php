@@ -23,6 +23,12 @@ $wgExtensionCredits['specialpage'][] = array(
     'description' => 'utilities for reference Trac project on MediaWiki'
 );
 
+/**
+ * options:
+ */
+$wgTracTicketLinkPattern = 'http://URL.TO.TRAC/ticket?id=[TICKET_ID]';
+$wgTracCommitLinkPattern = 'http://URL.TO.TRAC/commit?id=[COMMIT_ID]';
+
 $dir = dirname(__FILE__) . '/';
 // ticket Tag.
 $wgAutoloadClasses['TicketTag'] = $dir . 'TicketTag.php';
