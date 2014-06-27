@@ -33,3 +33,7 @@ $dir = dirname(__FILE__) . '/';
 // ticket Tag.
 $wgAutoloadClasses['TicketTag'] = $dir . 'TicketTag.php';
 $wgHooks['ParserFirstCallInit'][] = 'TicketTag::registerParserHook';
+
+// commit tag.
+$wgAutoloadClasses['CommitTag'] = $dir . 'CommitTag.php';
+$wgHooks['ParserFirstCallInit'][] = 'CommitTag::registerParserHook';
