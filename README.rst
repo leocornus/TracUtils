@@ -37,7 +37,9 @@ milestone planned in Trac_ project.
 Installation and Configuration
 ==============================
 
-Install as a regular MediaWiki_ extension.
+Install '''TracUtils''' as a regular MediaWiki_ extension::
+
+  require_once("$IP/extensions/TracUtils/TracUtils.php");
 
 Configuration options:
 
@@ -47,6 +49,11 @@ Configuration options:
 - $tracCommitLinkPattern defines the hyperlink pattern for
   **commit** tag. 
   **COMMIT_ID** will be replaced with the actural commit id.
+
+Here are some examples::
+
+  $tracTicketLinkPattern = "http://url.to.trac/ticket?[TICKET_ID]"
+  $tracTicketLinkPattern = "http://url.to.trac/commit?[COMMIT_ID]"
 
 License
 =======
