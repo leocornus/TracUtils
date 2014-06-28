@@ -48,15 +48,15 @@ The extension will offer the following configuration options:
 
 - $wgTracTicketLinkPattern defines the hyperlink pattern for 
   **ticket** tag. 
-  **TICKET_ID** will be replaced with the actural ticket id.
+  **[TICKET_ID]** will be replaced with the actural ticket id.
 - $wgTracCommitLinkPattern defines the hyperlink pattern for
   **commit** tag. 
-  **COMMIT_ID** will be replaced with the actural commit id.
+  **[COMMIT_ID]** will be replaced with the actural commit id.
 
 Here are some examples::
 
-  $wgTracTicketLinkPattern = "http://url.to.trac/ticket?[TICKET_ID]"
-  $wgTracCommitLinkPattern = "http://url.to.trac/commit?[COMMIT_ID]"
+  $wgTracTicketLinkPattern = "http://url.to.trac/ticket?id=[TICKET_ID]"
+  $wgTracCommitLinkPattern = "http://url.to.trac/commit?id=[COMMIT_ID]"
 
 License
 =======
