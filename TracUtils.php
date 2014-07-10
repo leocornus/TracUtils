@@ -13,7 +13,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 // Extension credits that show up on Special:Version
-$wgExtensionCredits['specialpage'][] = array(
+$wgExtensionCredits['parserhook'][] = array(
     'path' => __FILE__,
     'name' => 'TracUtils',
     'version' => '0.1.0',
