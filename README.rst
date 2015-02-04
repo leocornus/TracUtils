@@ -3,6 +3,11 @@ TracUtils
 
 All kind of utilities for incorporating Trac_ into MediaWiki_.
 
+- `Change Logs <docs/change-logs.rst>`_
+- `TODO List <docs/TODO.rst>`_
+- `Features`_
+- `Installation and Configurations`_
+
 Features
 ========
 
